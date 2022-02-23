@@ -63,5 +63,5 @@ const main = (input) => {
   console.log(total + ' '  + flatArg[2])
 }
 
-main(require('fs').readFileSync('/dev/stdin', 'utf8'));
+main(require('fs').readFileSync('/dev/stdin', 'utf8'))
 ```
